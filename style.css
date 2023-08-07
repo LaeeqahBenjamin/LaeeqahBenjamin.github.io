@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding: px;
+    width: 80%;
+    gap: 4rem;
+}
+
+.Education{
+    margin: 3%;
+    padding-top: 0px;
+}
+.Work{
+    margin: 3%;
+    padding-top: 0px;
+
+}
+.Skills{
+    margin: 3%;
+}
+.contact{
+    margin: 4%;
+}
+button{
+    width: 115px;
+    height: 30px;
+    margin: 2%;
+    cursor: pointer;
+    color:aliceblue;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    background: palevioletred;
+    transition: 0.1s;
+}
